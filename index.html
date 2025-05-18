@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PRIMORDEUS ZODIAC</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'UnifrakturCook', cursive;
+      background: linear-gradient(135deg,rgb(184, 135, 11), #fff8dc);
+      color: #654321;
+      text-shadow: 1px 1px 3px rgba(101, 67, 33, 0.7);
+    }
+
+    header {
+      background-color:rgb(247, 189, 0);
+      padding: 1em 2em;
+      box-shadow: 0 4px 8px rgba(101, 67, 33, 0.5);
+    }
+
+    header .fw-bold {
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+      color:rgb(247, 230, 159);
+    }
+
+    header nav a {
+      margin: 0 1em;
+      text-decoration: none;
+      color: #654321;
+      font-size: 1.2em;
+      text-shadow: 1px 1px 3px rgba(101, 67, 33, 0.7);
+      transition: color 0.3s ease, text-shadow 0.3s ease;
+    }
+
+    header nav a:hover {
+      color: #ffd700;
+      text-shadow: 2px 2px 6px rgba(255, 215, 0, 0.9);
+    }
+
+    .hero {
+      text-align: center;
+      padding: 4em 2em 2em;
+    }
+
+    .hero h1 {
+      font-size: 3.5em;
+      margin-bottom: 0.3em;
+      font-weight: 900;
+      color:rgb(236, 170, 4);
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    }
+
+    .hero p {
+      font-size: 1.4em;
+      font-style: italic;
+      font-weight: 600;
+      color: #8b6914;
+      text-shadow: 1.5px 1.5px 3px rgba(0, 0, 0, 0.7);
+      margin-top: 0;
+    }
+
+    .content {
+      padding: 3em 2em;
+      background-color:rgb(249, 220, 161);
+      text-align: center;
+      color: #6f4e01;
+      text-shadow: 1px 1px 2px rgba(111, 78, 1, 0.2);
+    }
+
+    .content p {
+      max-width: 800px;
+      margin: 0 auto 2em;
+      font-size: 1.1em;
+      text-shadow: 1px 1px 3px rgba(101, 67, 33, 0.1);
+    }
+
+    .image-placeholder {
+      background-color: #fff8dc;
+      border: 2px solid #b8860b;
+      width: 100%;
+      height: 200px;
+      margin-bottom: 1.5em;
+      box-shadow: inset 0 0 10px #ffd700;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+
+    .image-placeholder img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .card-buttons button {
+      background: linear-gradient(145deg, #ffd700, #b8860b);
+      color: #4b3200;
+      border: none;
+      padding: 1em 2em;
+      border-radius: 12px;
+      font-size: 1em;
+      cursor: pointer;
+      box-shadow:
+        0 3px 6px rgba(184, 134, 11, 0.7),
+        inset 0 -3px 5px rgba(255, 255, 255, 0.4);
+      transition: background 0.3s, color 0.3s;
+    }
+
+    .card-buttons button:hover {
+      background: linear-gradient(145deg,rgb(239, 175, 14), #ffd700);
+      color: #fff8dc;
+      box-shadow:
+        0 6px 12px rgba(255, 215, 0, 0.9),
+        inset 0 3px 5px rgba(255, 255, 255, 0.7);
+    }
+
+    footer {
+      background-color: #daa520;
+      text-align: center;
+      padding: 1em;
+      font-size: 0.9em;
+      text-shadow: 1px 1px 3px rgba(101, 67, 33, 0.4);
+      color: #fff8dc;
+    }
+  </style>
+</head>
+<body>
+  <header class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+    <div class="fw-bold">PRIMORDEUS ZODIAC</div>
+    <nav class="mt-2 mt-md-0">
+      <a href="pillars.php">The Pillars</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>PRIMORDEUS ZODIAC</h1>
+    <p><em>ad astra per fatum. to the stars, through destiny.</em></p>
+  </section>
+
+  <section class="content" id="info">
+    <div class="row card-buttons g-3 justify-content-center mb-4">
+      <div class="col-auto"><a href="rules.php"><button>Rules</button></a></div>
+      <div class="col-auto"><a href="violation.php"><button>Violations</button></a></div>
+      <div class="col-auto"><a href="terminologies.php"><button>Terminologies</button></a></div>
+      <div class="col-auto"><a href="calendar.php"><button>Calendar</button></a></div>
+      <div class="col-auto"><a href="veritas.php"><button>Veritas Flame</button></a></div>
+      <div class="col-auto"><a href="ars.php"><button>Ars Caelorum</button></a></div>
+    </div>
+
+    <p>
+      <strong>In lumine caeli, eligitur fortis</strong> — not by birthright, nor by name, but by the fire you carry within.
+      <strong>Primordeus Zodiac</strong>, nestled on the majestic Mount Olympus in Greece, exudes an aura of ancient mystique
+      and divine energy. The castle’s grandeur and splendor reflect the rich history of the gods and demigods who once roamed
+      its halls. As the sun sets behind the mountains, the castle’s walls glow with a golden hue, casting a magical ambiance
+      over the surrounding landscape. Primordeus stands as a beacon of knowledge and power, a place where the legacy of gods
+      and heroes continues to thrive. <strong>Ascend, children of the heavens. Your calling awaits.</strong>
+    </p>
+
+    <div class="row justify-content-center my-4">
+      <div class="col-12 col-sm-6 col-md-5 col-lg-4">
+        <div class="image-placeholder">
+          <img src="pz.jpg" alt="Primordeus Zodiac Image 1" />
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-5 col-lg-4">
+        <div class="image-placeholder">
+          <img src="pz2.jpg" alt="Primordeus Zodiac Image 2" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Primordeus Zodiac. All rights reserved.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
